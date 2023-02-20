@@ -1,4 +1,5 @@
 <script>
+	import '../app.css';
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
@@ -8,6 +9,7 @@
 
 	<main>
 		<slot />
+		<h1 class="text-6xl font-bold underline">Hello world!</h1>
 	</main>
 
 	<footer>
